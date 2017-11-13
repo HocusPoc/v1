@@ -1,17 +1,36 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Contact
+      Login
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+<ion-content padding class="home">
+
+<ion-grid>
+ 
+	<ion-list>
+
+  <ion-item class="tpt">
+    <ion-label fixed>Username</ion-label>
+    <ion-input type="text" value=""></ion-input>
+  </ion-item>
+  <br>
+  <ion-item class="tpt">
+    <ion-label fixed>Password</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+
+</ion-list>
+<button ion-button color="secondary" >Login</button>
+
+
+ 
+	<h6> New Member ? Register Here</h6>
+	<button ion-button color="secondary" >Signup</button>
+
+
+</ion-grid>
+
 </ion-content>
