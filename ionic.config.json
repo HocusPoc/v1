@@ -1,6 +1,8 @@
 {
   "name": "hp-tabs",
-  "app_id": "",
+  "app_id": "b93492de",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }
